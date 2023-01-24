@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronTrigger", "src\CronTrigger.csproj", "{F37962F7-20ED-4536-8D08-89367C973DDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clients", "clients", "{958C3AFC-C5E0-4B03-9FDE-8A7254337519}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F7B0893E-A689-4224-A7E3-A2F7421AA082}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4102AE56-F306-46C4-8966-4CE19A0C3694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronTriggerConsoleExample", "clients\CronTriggerConsoleExample\CronTriggerConsoleExample.csproj", "{F76E4A33-E195-4135-9CF3-7B5BBF5B5196}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F37962F7-20ED-4536-8D08-89367C973DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37962F7-20ED-4536-8D08-89367C973DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37962F7-20ED-4536-8D08-89367C973DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37962F7-20ED-4536-8D08-89367C973DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F76E4A33-E195-4135-9CF3-7B5BBF5B5196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76E4A33-E195-4135-9CF3-7B5BBF5B5196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76E4A33-E195-4135-9CF3-7B5BBF5B5196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76E4A33-E195-4135-9CF3-7B5BBF5B5196}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F37962F7-20ED-4536-8D08-89367C973DDD} = {F7B0893E-A689-4224-A7E3-A2F7421AA082}
+		{F76E4A33-E195-4135-9CF3-7B5BBF5B5196} = {958C3AFC-C5E0-4B03-9FDE-8A7254337519}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C5FC332-2E2D-44F5-A6EC-F987CFD7DCD0}
+	EndGlobalSection
+EndGlobal
